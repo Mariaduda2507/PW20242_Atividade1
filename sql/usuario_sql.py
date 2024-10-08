@@ -2,9 +2,9 @@ SQL_CRIAR_TABELA = """
     CREATE TABLE IF NOT EXISTS produto (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         nome TEXT NOT NULL,
-        descricao TEXT NOT NULL UNIQUE,
-        estoque INTEGER NOT NULL UNIQUE,
-        preco REAL NOT NULL,
+        descricao TEXT NOT NULL,
+        estoque INTEGER NOT NULL,
+        preco FLOAT NOT NULL,
         categoria TEXT NOT NULL
     )
 """
